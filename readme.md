@@ -1,4 +1,4 @@
-Github link to the code: 
+Github link to the code: [link](https://github.com/Jyotshna-koilada/CS5700-Project.git)
 
 The code is not entirely our own. We took the DetectGPT paper source code as base for our project. We were able to go through and understand the code, debug it and change it according to our model and convenience for our experimentation. We were able to successfully run our modified code and obtain results accordingly. Our code will take around 25 minutes for execution with default parameters.
 
@@ -6,12 +6,13 @@ As given in the default parameters we are using "gpt2-medium" as our base model 
 
 We can change both base model and mask filling model through command line. Other prominent parameters which can be changed are dataset, percentage of masked words, no.of samples, perturbation list, batch size of data.
  
-Once the files are stored into the environment, we can run the code. Please check if all the necessary libraries are available to run the code like datasets, transformers, torch, numpy, matplotlib, tqdm, sklearn, os, re
+The code can be cloned using the command: !git clone https://github.com/Jyotshna-koilada/CS5700-Project.git
+Once the files are cloned into the environment, we can run the code. Please check if all the necessary libraries are available to run the code like datasets, transformers, torch, numpy, matplotlib, tqdm, sklearn, os, re
 
-The basic command line to run the program is: !python detect-gpt/main.py
+The basic command line to run the program is: !python CS5700-Project/main.py
 
-To change any arguments we need to add them as: !python detect-gpt/main.py --{argument_name} {argument_value}
-Eg., To change of no.of perturbations from 1,10 to 1,100 the command line is: !python detect-gpt/main.py --n_pertubation_list 1,100
+To change any arguments we need to add them as: !python CS5700-Project/main.py --{argument_name} {argument_value}
+Eg., To change of no.of perturbations from 1,10 to 1,100 the command line is: !python CS5700-Project/main.py --n_pertubation_list 1,100
 Please note that there shouldn't be any spaces in the values given around comma for this argument.
 
 Similarly, other argument can be changed using their names as below:
